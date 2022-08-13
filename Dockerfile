@@ -1,4 +1,4 @@
-FROM python:3.11.0b5-alpine3.16
+FROM python:3.10.6-alpine
 LABEL maintainer="johnpjm"
 
 ARG USER_ID
