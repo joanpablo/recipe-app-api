@@ -20,8 +20,8 @@ RUN python -m venv /py && \
     fi && \
     rm -rf /tmp && \
     if [ $USER_ID ]; \
-    then adduser -D -H -u $USER_ID django-user \
-    else adduser -D -H django-user \
+    then adduser -D -H -u $USER_ID django-user  ; \
+    else adduser -D -H django-user ; \
     fi
 
 
